@@ -1,0 +1,46 @@
+<mxfile host="app.diagrams.net" modified="2023-09-25T19:12:49.170Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/116.0.0.0 Safari/537.36" etag="3Ar672rJktM_uu89Xxb3" version="21.8.0" type="github">
+  <diagram name="Page-1" id="7LF9blOet01WtOAl9S7B">
+    <mxGraphModel dx="1434" dy="878" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="R5EehaXb86aNorxMb2Aj-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.117;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="R5EehaXb86aNorxMb2Aj-1" target="R5EehaXb86aNorxMb2Aj-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="307.5" y="227.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R5EehaXb86aNorxMb2Aj-1" value="CAQH" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="155" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R5EehaXb86aNorxMb2Aj-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.892;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="R5EehaXb86aNorxMb2Aj-2" target="R5EehaXb86aNorxMb2Aj-10" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="307.5" y="322.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R5EehaXb86aNorxMb2Aj-2" value="Delegated Roster" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="50" y="335" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="R5EehaXb86aNorxMb2Aj-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" target="R5EehaXb86aNorxMb2Aj-6" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="275" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R5EehaXb86aNorxMb2Aj-6" value="Salesforce PNM&lt;br&gt;objects" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="580" y="215" width="120" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="R5EehaXb86aNorxMb2Aj-8" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" parent="1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="380" as="sourcePoint" />
+            <mxPoint x="510" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="R5EehaXb86aNorxMb2Aj-9" value="uses DataRaptor here&#xa;&#xa;Slow performance." style="swimlane;startSize=0;fontStyle=0;strokeColor=none;" parent="1" vertex="1">
+          <mxGeometry x="440" y="410" width="120" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="R5EehaXb86aNorxMb2Aj-10" value="Salesforce Staging objects" style="whiteSpace=wrap;html=1;aspect=fixed;" parent="1" vertex="1">
+          <mxGeometry x="330" y="215" width="120" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
