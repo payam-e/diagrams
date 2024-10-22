@@ -41,42 +41,40 @@
         <mxCell id="qghRwh2mUdKx6PaaZs1y-5" value="Prod&amp;nbsp;&lt;div&gt;SFMC&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="440" y="62" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qghRwh2mUdKx6PaaZs1y-8" value="Change event" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qghRwh2mUdKx6PaaZs1y-7">
-          <mxGeometry relative="1" as="geometry">
-            <mxPoint x="320" y="570" as="targetPoint" />
-          </mxGeometry>
+        <mxCell id="qghRwh2mUdKx6PaaZs1y-41" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qghRwh2mUdKx6PaaZs1y-7" target="qghRwh2mUdKx6PaaZs1y-40">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qghRwh2mUdKx6PaaZs1y-7" value="Health Cloud" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="80" y="540" width="120" height="60" as="geometry" />
+          <mxGeometry x="30" y="830" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qghRwh2mUdKx6PaaZs1y-9" value="&lt;div&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Azure DB&lt;/span&gt;&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="320" y="525" width="90" height="90" as="geometry" />
+          <mxGeometry x="420" y="850" width="95" height="95" as="geometry" />
         </mxCell>
         <mxCell id="qghRwh2mUdKx6PaaZs1y-10" value="sub 1" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="500" y="520" width="60" height="60" as="geometry" />
+          <mxGeometry x="605" y="850" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qghRwh2mUdKx6PaaZs1y-11" value="sub 2" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="500" y="590" width="60" height="60" as="geometry" />
+          <mxGeometry x="605" y="920" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qghRwh2mUdKx6PaaZs1y-12" value="sub 3" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;" vertex="1" parent="1">
-          <mxGeometry x="500" y="660" width="60" height="60" as="geometry" />
+          <mxGeometry x="605" y="990" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qghRwh2mUdKx6PaaZs1y-16" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="500" y="680" as="sourcePoint" />
-            <mxPoint x="420" y="610" as="targetPoint" />
+            <mxPoint x="605" y="1010" as="sourcePoint" />
+            <mxPoint x="525" y="940" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="qghRwh2mUdKx6PaaZs1y-17" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="490" y="610" as="sourcePoint" />
-            <mxPoint x="420" y="580" as="targetPoint" />
+            <mxPoint x="595" y="940" as="sourcePoint" />
+            <mxPoint x="525" y="910" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="qghRwh2mUdKx6PaaZs1y-18" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="490" y="550" as="sourcePoint" />
-            <mxPoint x="420" y="550" as="targetPoint" />
+            <mxPoint x="595" y="880" as="sourcePoint" />
+            <mxPoint x="525" y="880" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="qghRwh2mUdKx6PaaZs1y-19" value="NBA Notebooks for Insights" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -105,9 +103,6 @@
         <mxCell id="qghRwh2mUdKx6PaaZs1y-28" value="EDW" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="190" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qghRwh2mUdKx6PaaZs1y-35" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;SFMC Tables:&amp;nbsp;&lt;/font&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;span data-teams=&quot;true&quot;&gt;&lt;span dir=&quot;ltr&quot; class=&quot;ui-provider a b c d e f g h i j k l m n o p q r s t u v w x y z ab ac ae af ag ah ai aj ak&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Account&lt;br&gt;&lt;br/&gt;AccountUser&lt;br&gt;&lt;br/&gt;BounceEvent&lt;br&gt;&lt;br/&gt;BusinessUnit&lt;br&gt;&lt;br/&gt;ClickEvent&lt;br&gt;&lt;br/&gt;ContentArea&lt;br&gt;&lt;br/&gt;DataExtension&lt;br&gt;&lt;br/&gt;DataExtensionField&lt;br&gt;&lt;br/&gt;DataExtensionTemplate&lt;br&gt;&lt;br/&gt;DataFolder&lt;br&gt;&lt;br/&gt;DoubleOptInMOKeyword&lt;br&gt;&lt;br/&gt;Email&lt;br&gt;&lt;br/&gt;EmailSendDefinition&lt;br&gt;&lt;br/&gt;FileTrigger&lt;br&gt;&lt;br/&gt;FileTriggerTypeLastPull&lt;br&gt;&lt;br/&gt;ForwardedEmailEvent&lt;br&gt;&lt;br/&gt;ForwardedEmailOptInEvent&lt;br&gt;&lt;br/&gt;HelpMOKeyword&lt;br&gt;&lt;br/&gt;ImportDefinition&lt;br&gt;&lt;br/&gt;ImportResultsSummary&lt;br&gt;&lt;br/&gt;LinkSend&lt;br&gt;&lt;br/&gt;List&lt;br&gt;&lt;br/&gt;ListSend&lt;br&gt;&lt;br/&gt;ListSubscriber&lt;br&gt;&lt;br/&gt;MessagingVendorKind&lt;br&gt;&lt;br/&gt;NotSentEvent&lt;br&gt;&lt;br/&gt;OpenEvent&lt;br&gt;&lt;br/&gt;Portfolio&lt;br&gt;&lt;br/&gt;PrivateIP&lt;br&gt;&lt;br/&gt;ProgramManifestTemplate&lt;br&gt;&lt;br/&gt;Publication&lt;br&gt;&lt;br/&gt;PublicationSubscriber&lt;br&gt;&lt;br/&gt;QueryDefinition&lt;br&gt;&lt;br/&gt;ReplyMailManagementConfiguration&lt;br&gt;&lt;br/&gt;Role&lt;br&gt;&lt;br/&gt;Send&lt;br&gt;&lt;br/&gt;SendClassification&lt;br&gt;&lt;br/&gt;SendEmailMOKeyword&lt;br&gt;&lt;br/&gt;SenderProfile&lt;br&gt;&lt;br/&gt;SendSMSMOKeyword&lt;br&gt;&lt;br/&gt;SentEvent&lt;br&gt;&lt;br/&gt;SMSMTEvent&lt;br&gt;&lt;br/&gt;SMSSharedKeyword&lt;br&gt;&lt;br/&gt;SMSTriggeredSend&lt;br&gt;&lt;br/&gt;SMSTriggeredSendDefinition&lt;br&gt;&lt;br/&gt;Subscriber&lt;br&gt;&lt;br/&gt;SubscriberList&lt;br&gt;&lt;br/&gt;SubscriberSendResult&lt;br&gt;&lt;br/&gt;SuppressionListContext&lt;br&gt;&lt;br/&gt;SuppressionListDefinition&lt;br&gt;&lt;br/&gt;SurveyEvent&lt;br&gt;&lt;br/&gt;Template&lt;br&gt;&lt;br/&gt;TimeZone&lt;br&gt;&lt;br/&gt;TriggeredSendDefinition&lt;br&gt;&lt;br/&gt;TriggeredSendSummary&lt;br&gt;&lt;br/&gt;UnsubEvent&lt;br&gt;&lt;br/&gt;UnsubscribeFromSMSPublicationMOKeyword&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="650" y="300" width="250" height="1530" as="geometry" />
-        </mxCell>
         <mxCell id="qghRwh2mUdKx6PaaZs1y-36" value="uses Informatica" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="200" y="140" width="70" height="30" as="geometry" />
         </mxCell>
@@ -121,6 +116,27 @@
             <Array as="points" />
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="qghRwh2mUdKx6PaaZs1y-39" value="&lt;div style=&quot;font-size: 8px;&quot;&gt;SFMC Tables being replicated:&amp;nbsp;&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;Account&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;AccountUser&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;BounceEvent&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;BusinessUnit&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;ClickEvent&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;ContentArea&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;DataExtension&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;DataExtensionField&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;DataExtensionTemplate&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;DataFolder&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;DoubleOptInMOKeyword&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;Email&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;EmailSendDefinition&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;FileTrigger&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;FileTriggerTypeLastPull&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;ForwardedEmailEvent&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;ForwardedEmailOptInEvent&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;HelpMOKeyword&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;ImportDefinition&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;ImportResultsSummary&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;LinkSend&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;List&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;ListSend&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;ListSubscriber&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;MessagingVendorKind&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;NotSentEvent&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;OpenEvent&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;Portfolio&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;PrivateIP&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;ProgramManifestTemplate&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;Publication&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;PublicationSubscriber&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;QueryDefinition&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;ReplyMailManagementConfiguration&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;Role&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;Send&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;SendClassification&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;SendEmailMOKeyword&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;SenderProfile&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;SendSMSMOKeyword&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;SentEvent&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;SMSMTEvent&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;SMSSharedKeyword&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;SMSTriggeredSend&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;SMSTriggeredSendDefinition&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;Subscriber&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;SubscriberList&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;SubscriberSendResult&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;SuppressionListContext&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;SuppressionListDefinition&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;SurveyEvent&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;Template&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;TimeZone&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;TriggeredSendDefinition&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;TriggeredSendSummary&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;UnsubEvent&lt;/div&gt;&lt;div style=&quot;font-size: 8px;&quot;&gt;UnsubscribeFromSMSPublicationMOKeyword&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="640" y="140" width="190" height="570" as="geometry" />
+        </mxCell>
+        <mxCell id="qghRwh2mUdKx6PaaZs1y-40" value="MuleSoft" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="210" y="870" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qghRwh2mUdKx6PaaZs1y-42" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="340" y="900" as="sourcePoint" />
+            <mxPoint x="410" y="900" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qghRwh2mUdKx6PaaZs1y-43" value="&lt;b&gt;EDA Architecture&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBorderColor=none;textShadow=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="790" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qghRwh2mUdKx6PaaZs1y-45" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;rotation=90;" vertex="1" parent="1">
+          <mxGeometry x="370" y="720" width="20" height="210" as="geometry" />
+        </mxCell>
+        <mxCell id="qghRwh2mUdKx6PaaZs1y-47" value="Changes are published&lt;div&gt;close to real-time&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="30" y="890" width="150" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
