@@ -4,10 +4,10 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="qghRwh2mUdKx6PaaZs1y-23" value="DataBricks/EDW" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontStyle=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="200" y="250" width="400" height="190" as="geometry" />
+        <mxCell id="qghRwh2mUdKx6PaaZs1y-23" value="DataBricks" style="whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontStyle=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="225" y="290" width="400" height="190" as="geometry" />
         </mxCell>
-        <mxCell id="qghRwh2mUdKx6PaaZs1y-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qghRwh2mUdKx6PaaZs1y-1" target="qghRwh2mUdKx6PaaZs1y-3">
+        <mxCell id="qghRwh2mUdKx6PaaZs1y-4" value="dbamp" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qghRwh2mUdKx6PaaZs1y-1" target="qghRwh2mUdKx6PaaZs1y-3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="qghRwh2mUdKx6PaaZs1y-26" value="SF Connector (Synced DEs, email from CPTE, ...)" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qghRwh2mUdKx6PaaZs1y-1" target="qghRwh2mUdKx6PaaZs1y-5">
@@ -22,8 +22,8 @@
         <mxCell id="qghRwh2mUdKx6PaaZs1y-1" value="Health Cloud" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="40" y="62" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qghRwh2mUdKx6PaaZs1y-21" value="CPTC&lt;div&gt;&lt;div&gt;various IDs&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qghRwh2mUdKx6PaaZs1y-3" target="qghRwh2mUdKx6PaaZs1y-19">
-          <mxGeometry x="0.0013" relative="1" as="geometry">
+        <mxCell id="qghRwh2mUdKx6PaaZs1y-21" value="CPTC&lt;div&gt;&lt;div&gt;various IDs&lt;/div&gt;&lt;/div&gt;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qghRwh2mUdKx6PaaZs1y-3" target="qghRwh2mUdKx6PaaZs1y-28">
+          <mxGeometry x="-0.1765" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
@@ -35,6 +35,14 @@
             <Array as="points">
               <mxPoint x="530" y="20" />
               <mxPoint x="70" y="20" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="qghRwh2mUdKx6PaaZs1y-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qghRwh2mUdKx6PaaZs1y-5" target="qghRwh2mUdKx6PaaZs1y-3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="420" y="92" />
+              <mxPoint x="420" y="92" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -80,18 +88,33 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="qghRwh2mUdKx6PaaZs1y-19" value="NBA Notebooks for Insights" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="320" y="290" width="120" height="60" as="geometry" />
+          <mxGeometry x="410" y="310" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="qghRwh2mUdKx6PaaZs1y-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.833;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="qghRwh2mUdKx6PaaZs1y-5" target="qghRwh2mUdKx6PaaZs1y-19">
-          <mxGeometry relative="1" as="geometry" />
+        <mxCell id="qghRwh2mUdKx6PaaZs1y-20" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.75;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qghRwh2mUdKx6PaaZs1y-5" target="qghRwh2mUdKx6PaaZs1y-19">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="500" y="290" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="500" y="170" />
+              <mxPoint x="500" y="170" />
+            </Array>
+          </mxGeometry>
         </mxCell>
         <mxCell id="qghRwh2mUdKx6PaaZs1y-24" value="Send Jobs, etc..." style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="qghRwh2mUdKx6PaaZs1y-20">
           <mxGeometry x="-0.0917" y="2" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qghRwh2mUdKx6PaaZs1y-22" value="for: Member 360&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="450" y="300" width="110" height="40" as="geometry" />
+        <mxCell id="qghRwh2mUdKx6PaaZs1y-22" value="for: Member 360&lt;div style=&quot;font-size: 10px;&quot;&gt;&lt;br style=&quot;font-size: 10px;&quot;&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="525" y="320" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="qghRwh2mUdKx6PaaZs1y-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qghRwh2mUdKx6PaaZs1y-28" target="qghRwh2mUdKx6PaaZs1y-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="qghRwh2mUdKx6PaaZs1y-28" value="EDW" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qghRwh2mUdKx6PaaZs1y-35" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;SFMC Tables:&amp;nbsp;&lt;/font&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;span data-teams=&quot;true&quot;&gt;&lt;span dir=&quot;ltr&quot; class=&quot;ui-provider a b c d e f g h i j k l m n o p q r s t u v w x y z ab ac ae af ag ah ai aj ak&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Account&lt;br&gt;&lt;br/&gt;AccountUser&lt;br&gt;&lt;br/&gt;BounceEvent&lt;br&gt;&lt;br/&gt;BusinessUnit&lt;br&gt;&lt;br/&gt;ClickEvent&lt;br&gt;&lt;br/&gt;ContentArea&lt;br&gt;&lt;br/&gt;DataExtension&lt;br&gt;&lt;br/&gt;DataExtensionField&lt;br&gt;&lt;br/&gt;DataExtensionTemplate&lt;br&gt;&lt;br/&gt;DataFolder&lt;br&gt;&lt;br/&gt;DoubleOptInMOKeyword&lt;br&gt;&lt;br/&gt;Email&lt;br&gt;&lt;br/&gt;EmailSendDefinition&lt;br&gt;&lt;br/&gt;FileTrigger&lt;br&gt;&lt;br/&gt;FileTriggerTypeLastPull&lt;br&gt;&lt;br/&gt;ForwardedEmailEvent&lt;br&gt;&lt;br/&gt;ForwardedEmailOptInEvent&lt;br&gt;&lt;br/&gt;HelpMOKeyword&lt;br&gt;&lt;br/&gt;ImportDefinition&lt;br&gt;&lt;br/&gt;ImportResultsSummary&lt;br&gt;&lt;br/&gt;LinkSend&lt;br&gt;&lt;br/&gt;List&lt;br&gt;&lt;br/&gt;ListSend&lt;br&gt;&lt;br/&gt;ListSubscriber&lt;br&gt;&lt;br/&gt;MessagingVendorKind&lt;br&gt;&lt;br/&gt;NotSentEvent&lt;br&gt;&lt;br/&gt;OpenEvent&lt;br&gt;&lt;br/&gt;Portfolio&lt;br&gt;&lt;br/&gt;PrivateIP&lt;br&gt;&lt;br/&gt;ProgramManifestTemplate&lt;br&gt;&lt;br/&gt;Publication&lt;br&gt;&lt;br/&gt;PublicationSubscriber&lt;br&gt;&lt;br/&gt;QueryDefinition&lt;br&gt;&lt;br/&gt;ReplyMailManagementConfiguration&lt;br&gt;&lt;br/&gt;Role&lt;br&gt;&lt;br/&gt;Send&lt;br&gt;&lt;br/&gt;SendClassification&lt;br&gt;&lt;br/&gt;SendEmailMOKeyword&lt;br&gt;&lt;br/&gt;SenderProfile&lt;br&gt;&lt;br/&gt;SendSMSMOKeyword&lt;br&gt;&lt;br/&gt;SentEvent&lt;br&gt;&lt;br/&gt;SMSMTEvent&lt;br&gt;&lt;br/&gt;SMSSharedKeyword&lt;br&gt;&lt;br/&gt;SMSTriggeredSend&lt;br&gt;&lt;br/&gt;SMSTriggeredSendDefinition&lt;br&gt;&lt;br/&gt;Subscriber&lt;br&gt;&lt;br/&gt;SubscriberList&lt;br&gt;&lt;br/&gt;SubscriberSendResult&lt;br&gt;&lt;br/&gt;SuppressionListContext&lt;br&gt;&lt;br/&gt;SuppressionListDefinition&lt;br&gt;&lt;br/&gt;SurveyEvent&lt;br&gt;&lt;br/&gt;Template&lt;br&gt;&lt;br/&gt;TimeZone&lt;br&gt;&lt;br/&gt;TriggeredSendDefinition&lt;br&gt;&lt;br/&gt;TriggeredSendSummary&lt;br&gt;&lt;br/&gt;UnsubEvent&lt;br&gt;&lt;br/&gt;UnsubscribeFromSMSPublicationMOKeyword&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="660" y="10" width="250" height="1530" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
