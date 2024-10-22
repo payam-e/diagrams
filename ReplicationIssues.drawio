@@ -27,7 +27,7 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qghRwh2mUdKx6PaaZs1y-3" value="Replication Server" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+        <mxCell id="qghRwh2mUdKx6PaaZs1y-3" value="&lt;div&gt;Replication Server&lt;/div&gt;&lt;div&gt;(&lt;span style=&quot;background-color: initial;&quot;&gt;Prod DB)&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="240" y="62" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qghRwh2mUdKx6PaaZs1y-27" value="Tracking Results" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="qghRwh2mUdKx6PaaZs1y-5" target="qghRwh2mUdKx6PaaZs1y-1">
@@ -38,15 +38,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="qghRwh2mUdKx6PaaZs1y-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="qghRwh2mUdKx6PaaZs1y-5" target="qghRwh2mUdKx6PaaZs1y-3">
-          <mxGeometry relative="1" as="geometry">
-            <Array as="points">
-              <mxPoint x="420" y="92" />
-              <mxPoint x="420" y="92" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="qghRwh2mUdKx6PaaZs1y-5" value="SFMC" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="qghRwh2mUdKx6PaaZs1y-5" value="Prod&amp;nbsp;&lt;div&gt;SFMC&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="440" y="62" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qghRwh2mUdKx6PaaZs1y-8" value="Change event" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="qghRwh2mUdKx6PaaZs1y-7">
@@ -114,10 +106,21 @@
           <mxGeometry x="240" y="190" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="qghRwh2mUdKx6PaaZs1y-35" value="&lt;font style=&quot;font-size: 11px;&quot;&gt;SFMC Tables:&amp;nbsp;&lt;/font&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;&lt;br&gt;&lt;/font&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 11px;&quot;&gt;&lt;span data-teams=&quot;true&quot;&gt;&lt;span dir=&quot;ltr&quot; class=&quot;ui-provider a b c d e f g h i j k l m n o p q r s t u v w x y z ab ac ae af ag ah ai aj ak&quot;&gt;&lt;font style=&quot;font-size: 11px;&quot;&gt;Account&lt;br&gt;&lt;br/&gt;AccountUser&lt;br&gt;&lt;br/&gt;BounceEvent&lt;br&gt;&lt;br/&gt;BusinessUnit&lt;br&gt;&lt;br/&gt;ClickEvent&lt;br&gt;&lt;br/&gt;ContentArea&lt;br&gt;&lt;br/&gt;DataExtension&lt;br&gt;&lt;br/&gt;DataExtensionField&lt;br&gt;&lt;br/&gt;DataExtensionTemplate&lt;br&gt;&lt;br/&gt;DataFolder&lt;br&gt;&lt;br/&gt;DoubleOptInMOKeyword&lt;br&gt;&lt;br/&gt;Email&lt;br&gt;&lt;br/&gt;EmailSendDefinition&lt;br&gt;&lt;br/&gt;FileTrigger&lt;br&gt;&lt;br/&gt;FileTriggerTypeLastPull&lt;br&gt;&lt;br/&gt;ForwardedEmailEvent&lt;br&gt;&lt;br/&gt;ForwardedEmailOptInEvent&lt;br&gt;&lt;br/&gt;HelpMOKeyword&lt;br&gt;&lt;br/&gt;ImportDefinition&lt;br&gt;&lt;br/&gt;ImportResultsSummary&lt;br&gt;&lt;br/&gt;LinkSend&lt;br&gt;&lt;br/&gt;List&lt;br&gt;&lt;br/&gt;ListSend&lt;br&gt;&lt;br/&gt;ListSubscriber&lt;br&gt;&lt;br/&gt;MessagingVendorKind&lt;br&gt;&lt;br/&gt;NotSentEvent&lt;br&gt;&lt;br/&gt;OpenEvent&lt;br&gt;&lt;br/&gt;Portfolio&lt;br&gt;&lt;br/&gt;PrivateIP&lt;br&gt;&lt;br/&gt;ProgramManifestTemplate&lt;br&gt;&lt;br/&gt;Publication&lt;br&gt;&lt;br/&gt;PublicationSubscriber&lt;br&gt;&lt;br/&gt;QueryDefinition&lt;br&gt;&lt;br/&gt;ReplyMailManagementConfiguration&lt;br&gt;&lt;br/&gt;Role&lt;br&gt;&lt;br/&gt;Send&lt;br&gt;&lt;br/&gt;SendClassification&lt;br&gt;&lt;br/&gt;SendEmailMOKeyword&lt;br&gt;&lt;br/&gt;SenderProfile&lt;br&gt;&lt;br/&gt;SendSMSMOKeyword&lt;br&gt;&lt;br/&gt;SentEvent&lt;br&gt;&lt;br/&gt;SMSMTEvent&lt;br&gt;&lt;br/&gt;SMSSharedKeyword&lt;br&gt;&lt;br/&gt;SMSTriggeredSend&lt;br&gt;&lt;br/&gt;SMSTriggeredSendDefinition&lt;br&gt;&lt;br/&gt;Subscriber&lt;br&gt;&lt;br/&gt;SubscriberList&lt;br&gt;&lt;br/&gt;SubscriberSendResult&lt;br&gt;&lt;br/&gt;SuppressionListContext&lt;br&gt;&lt;br/&gt;SuppressionListDefinition&lt;br&gt;&lt;br/&gt;SurveyEvent&lt;br&gt;&lt;br/&gt;Template&lt;br&gt;&lt;br/&gt;TimeZone&lt;br&gt;&lt;br/&gt;TriggeredSendDefinition&lt;br&gt;&lt;br/&gt;TriggeredSendSummary&lt;br&gt;&lt;br/&gt;UnsubEvent&lt;br&gt;&lt;br/&gt;UnsubscribeFromSMSPublicationMOKeyword&lt;/font&gt;&lt;/span&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="660" y="10" width="250" height="1530" as="geometry" />
+          <mxGeometry x="650" y="300" width="250" height="1530" as="geometry" />
         </mxCell>
         <mxCell id="qghRwh2mUdKx6PaaZs1y-36" value="uses Informatica" style="text;html=1;align=right;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="200" y="140" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="qghRwh2mUdKx6PaaZs1y-37" value="&lt;div&gt;Replication Server&lt;/div&gt;&lt;div&gt;(&lt;span style=&quot;background-color: initial;&quot;&gt;UAT DB)&lt;/span&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="660" y="62" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="qghRwh2mUdKx6PaaZs1y-38" value="CData Sync" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="qghRwh2mUdKx6PaaZs1y-5" target="qghRwh2mUdKx6PaaZs1y-37">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="440" y="92" as="sourcePoint" />
+            <mxPoint x="360" y="92" as="targetPoint" />
+            <Array as="points" />
+            <mxPoint as="offset" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
