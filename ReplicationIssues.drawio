@@ -138,6 +138,9 @@
         <mxCell id="qghRwh2mUdKx6PaaZs1y-47" value="Changes are published&lt;div&gt;close to real-time&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="30" y="890" width="150" height="40" as="geometry" />
         </mxCell>
+        <mxCell id="qghRwh2mUdKx6PaaZs1y-48" value="&lt;b&gt;Tentative Architecture:&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelBorderColor=none;textShadow=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="730" width="150" height="30" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
