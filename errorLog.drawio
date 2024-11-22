@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.8">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="24.8.6" pages="2">
   <diagram name="Page-1" id="2YBvvXClWsGukQMizWep">
     <mxGraphModel dx="1434" dy="866" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -235,6 +235,98 @@
         </mxCell>
         <mxCell id="eO6LwxHsAXZTuJflmftO-18" value="" style="shape=cross;whiteSpace=wrap;html=1;fillColor=#FF0000;strokeColor=#b85450;rotation=-45;fontColor=#FF0000;size=0.09395658700509228;" parent="1" vertex="1">
           <mxGeometry x="134.23" y="142.13" width="43.4" height="42.99" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="gA8qLU5-QJIrD9iu_n-T" name="Transaction Audit Tool">
+    <mxGraphModel dx="989" dy="592" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="HkkDCGLzGTCQJpNStHWE-1" value="&lt;b&gt;Mule&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="400" y="80" width="180" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="HkkDCGLzGTCQJpNStHWE-2" value="&lt;b&gt;.Net App&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="620" y="80" width="180" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="HkkDCGLzGTCQJpNStHWE-3" value="&lt;b&gt;RabbitMQ&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="140" y="80" width="180" height="430" as="geometry" />
+        </mxCell>
+        <mxCell id="HkkDCGLzGTCQJpNStHWE-4" value="Error Dispactch" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry y="111" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HkkDCGLzGTCQJpNStHWE-6" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="100" y="126" as="sourcePoint" />
+            <mxPoint x="160" y="126" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HkkDCGLzGTCQJpNStHWE-7" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="300" y="134.5" as="sourcePoint" />
+            <mxPoint x="430" y="134.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HkkDCGLzGTCQJpNStHWE-8" value="error 1, ..., n" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="120" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="HkkDCGLzGTCQJpNStHWE-26" value="to be added to UI" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;textDirection=vertical-lr;" edge="1" parent="1" source="HkkDCGLzGTCQJpNStHWE-9" target="HkkDCGLzGTCQJpNStHWE-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HkkDCGLzGTCQJpNStHWE-9" value="Transaction&lt;div&gt;Audit&lt;/div&gt;&lt;div&gt;Tool&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="450" y="120" width="80" height="149" as="geometry" />
+        </mxCell>
+        <mxCell id="HkkDCGLzGTCQJpNStHWE-14" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="HkkDCGLzGTCQJpNStHWE-11" target="HkkDCGLzGTCQJpNStHWE-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HkkDCGLzGTCQJpNStHWE-11" value="UI Interface" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="680" y="130" width="80" height="149" as="geometry" />
+        </mxCell>
+        <mxCell id="HkkDCGLzGTCQJpNStHWE-13" value="if reprocessed" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HkkDCGLzGTCQJpNStHWE-20" value="if retry is success" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HkkDCGLzGTCQJpNStHWE-17" target="HkkDCGLzGTCQJpNStHWE-19">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="490" y="420" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HkkDCGLzGTCQJpNStHWE-22" value="if retry is failed" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="HkkDCGLzGTCQJpNStHWE-17" target="HkkDCGLzGTCQJpNStHWE-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HkkDCGLzGTCQJpNStHWE-17" value="scheduled job&lt;div&gt;in Mule&lt;/div&gt;&lt;div&gt;(runs every 30mins)&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="320" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HkkDCGLzGTCQJpNStHWE-18" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="660" y="349.5" as="sourcePoint" />
+            <mxPoint x="550" y="350" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HkkDCGLzGTCQJpNStHWE-19" value="update UI with success" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HkkDCGLzGTCQJpNStHWE-21" value="update UI with ignored" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="660" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="HkkDCGLzGTCQJpNStHWE-25" value="if -net failes to accept error to be added" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="HkkDCGLzGTCQJpNStHWE-23" target="HkkDCGLzGTCQJpNStHWE-8">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="602" y="40" />
+              <mxPoint x="230" y="40" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="HkkDCGLzGTCQJpNStHWE-23" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="577" y="132" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="HkkDCGLzGTCQJpNStHWE-27" value="success" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.01;entryY=0.176;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="HkkDCGLzGTCQJpNStHWE-23" target="HkkDCGLzGTCQJpNStHWE-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="HkkDCGLzGTCQJpNStHWE-28" value="each Mule App that sends error, needs a reprocess flow inside them" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="30" y="550" width="380" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
