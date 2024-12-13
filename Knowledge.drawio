@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3" pages="2">
   <diagram name="AzureAI" id="OpVehoEWyaYxuq4tvKD_">
-    <mxGraphModel dx="1687" dy="1059" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2537" dy="1059" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -97,6 +97,9 @@
         </mxCell>
         <mxCell id="BW_ore4JzLJ00ylGGFoG-7" value="File Store&lt;div&gt;(currently NXT uses)&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Segoe UI;fontSize=14;fontStyle=2;" vertex="1" parent="1">
           <mxGeometry x="1640" y="419.5" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="mp3C6aJtlmQ5sVye6Uwl-1" value="if there are concerns over legacy UI currently in NXT, this component can grow and leverage modern tech" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=2" vertex="1" parent="1">
+          <mxGeometry x="-180" y="973" width="190" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
