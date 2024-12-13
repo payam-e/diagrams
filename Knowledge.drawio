@@ -102,16 +102,17 @@
           <mxGeometry x="1640" y="419.5" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="mp3C6aJtlmQ5sVye6Uwl-2" value="Einstein callouts&lt;br&gt;OR&lt;br&gt;LWC for Search" style="verticalLabelPosition=bottom;aspect=fixed;html=1;shape=mxgraph.salesforce.automation;" vertex="1" parent="1">
-          <mxGeometry x="-150" y="948" width="60" height="58.199999999999996" as="geometry" />
+          <mxGeometry x="-150" y="943" width="60" height="58.199999999999996" as="geometry" />
         </mxCell>
         <mxCell id="mp3C6aJtlmQ5sVye6Uwl-3" value="MTeams" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/logos-microsoft-office-365/128/Microsoft_Office-10-128.png" vertex="1" parent="1">
-          <mxGeometry x="-50" y="948" width="60" height="60" as="geometry" />
+          <mxGeometry x="-40" y="948" width="60" height="60" as="geometry" />
         </mxCell>
         <mxCell id="mp3C6aJtlmQ5sVye6Uwl-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="mp3C6aJtlmQ5sVye6Uwl-4">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="-20" y="940" as="targetPoint" />
+            <mxPoint x="-10" y="940" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-20" y="745" />
+              <mxPoint x="-10" y="745" />
+              <mxPoint x="-10" y="940" />
             </Array>
           </mxGeometry>
         </mxCell>
