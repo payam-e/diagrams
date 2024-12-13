@@ -34,8 +34,8 @@
         <mxCell id="WMn-b6ElxN8xJxoVkPEa-12" value="Retrieval-Augmented Generation (RAG) will:&lt;div&gt;- make use of internal context&lt;/div&gt;&lt;div&gt;- extends the LLM ability to understand SH&lt;/div&gt;&lt;div&gt;- factual grounding and relevancy&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="480" y="386.5" width="260" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="WMn-b6ElxN8xJxoVkPEa-15" value="&lt;b&gt;Building a custom AI Model dedicated to our internal knowledge&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="220.00000000000006" y="-60" width="390" height="30" as="geometry" />
+        <mxCell id="WMn-b6ElxN8xJxoVkPEa-15" value="&lt;b&gt;&lt;font style=&quot;font-size: 21px;&quot;&gt;Enhance a GPT Model tailored to SH&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=4" vertex="1" parent="1">
+          <mxGeometry x="260.00000000000006" y="-70" width="390" height="40" as="geometry" />
         </mxCell>
         <mxCell id="WMn-b6ElxN8xJxoVkPEa-16" value="Benefits:&lt;div&gt;&lt;ul&gt;&lt;li&gt;control over what goes and does not go into the model&lt;/li&gt;&lt;li&gt;ability to add or remove other sources&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="890" y="221.5" width="350" height="80" as="geometry" />
