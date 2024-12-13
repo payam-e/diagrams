@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3" pages="2">
   <diagram name="AzureAI" id="OpVehoEWyaYxuq4tvKD_">
-    <mxGraphModel dx="1669" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2045" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -20,7 +20,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="WMn-b6ElxN8xJxoVkPEa-5" value="Challenges:&lt;div&gt;&lt;ul&gt;&lt;li&gt;need an Azure OpenAI subscription&lt;/li&gt;&lt;li&gt;On-Prem current state makes read challenging&amp;nbsp;&lt;/li&gt;&lt;li&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="40" y="1120" width="320" height="100" as="geometry" />
+          <mxGeometry x="40" y="1353" width="320" height="100" as="geometry" />
         </mxCell>
         <mxCell id="WMn-b6ElxN8xJxoVkPEa-8" value="Azure OpenAI&lt;div&gt;GPT LLM&lt;/div&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/app_services/Search_Services.svg;" vertex="1" parent="1">
           <mxGeometry x="300" y="673" width="169.22" height="122.23" as="geometry" />
@@ -38,7 +38,7 @@
           <mxGeometry x="260.00000000000006" width="390" height="40" as="geometry" />
         </mxCell>
         <mxCell id="WMn-b6ElxN8xJxoVkPEa-16" value="Benefits:&lt;div&gt;&lt;ul&gt;&lt;li&gt;control over what goes and does not go into the model&lt;/li&gt;&lt;li&gt;ability to add or remove other sources&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="40" y="1270" width="350" height="80" as="geometry" />
+          <mxGeometry x="40" y="1503" width="350" height="80" as="geometry" />
         </mxCell>
         <mxCell id="WMn-b6ElxN8xJxoVkPEa-18" value="Files will be made available to RAG layer. TBD on the following:&lt;div&gt;&lt;ol&gt;&lt;li&gt;store files in FS AND RAG (redundancy issue)&lt;/li&gt;&lt;li&gt;store files in RAG, connect NXT UI to Azure to read files.&lt;/li&gt;&lt;li&gt;store files in FS, connect RAG to read files virtually&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;rounded=0;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="405" y="163" width="365" height="200" as="geometry" />
@@ -67,6 +67,11 @@
             <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
+        <mxCell id="mp3C6aJtlmQ5sVye6Uwl-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="WMn-b6ElxN8xJxoVkPEa-20" source="mp3C6aJtlmQ5sVye6Uwl-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-420" y="615.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="mp3C6aJtlmQ5sVye6Uwl-4" value="" style="verticalLabelPosition=bottom;aspect=fixed;html=1;shape=mxgraph.salesforce.integration;" vertex="1" parent="WMn-b6ElxN8xJxoVkPEa-20">
           <mxGeometry x="20" y="390.5" width="40" height="40" as="geometry" />
         </mxCell>
@@ -79,15 +84,15 @@
           <mxGeometry x="65" y="943" width="65" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BW_ore4JzLJ00ylGGFoG-1" value="Questions:&lt;div&gt;&lt;ul&gt;&lt;li&gt;can we include custom pre-existing instructions making Azure AI smarter and more tailored toward us?&lt;/li&gt;&lt;li&gt;ability to add or remove other sources?&lt;/li&gt;&lt;li&gt;how do i make docs available for rag? api call for updates and an initial .html dump&lt;/li&gt;&lt;li&gt;how do we not end up with 2 file store one in ihc and one in Azure&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelPosition=center;verticalLabelPosition=middle;" vertex="1" parent="1">
-          <mxGeometry x="40" y="1410" width="610" height="110" as="geometry" />
+          <mxGeometry x="40" y="1643" width="610" height="110" as="geometry" />
         </mxCell>
         <mxCell id="BW_ore4JzLJ00ylGGFoG-2" value="&lt;div&gt;&lt;b&gt;User&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;writes queries&lt;/div&gt;" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=none;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.user;" vertex="1" parent="1">
-          <mxGeometry x="290" y="953" width="50" height="50" as="geometry" />
+          <mxGeometry x="-70" y="1170" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="BW_ore4JzLJ00ylGGFoG-3" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="270" y="977.41" as="sourcePoint" />
-            <mxPoint x="160" y="977.41" as="targetPoint" />
+            <mxPoint x="-10" y="1170" as="sourcePoint" />
+            <mxPoint x="90" y="1090" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <UserObject label="https://learn.microsoft.com/en-us/azure/search/retrieval-augmented-generation-overview" link="https://learn.microsoft.com/en-us/azure/search/retrieval-augmented-generation-overview" id="BW_ore4JzLJ00ylGGFoG-4">
@@ -119,6 +124,27 @@
         <mxCell id="mp3C6aJtlmQ5sVye6Uwl-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="mp3C6aJtlmQ5sVye6Uwl-4">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-120" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mp3C6aJtlmQ5sVye6Uwl-11" value="NXT UI" style="verticalLabelPosition=bottom;aspect=fixed;shape=mxgraph.salesforce.platform;html=1;spacing=2;labelPosition=center;align=center;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="-240" y="953" width="39" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mp3C6aJtlmQ5sVye6Uwl-13" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-30" y="1160" as="sourcePoint" />
+            <mxPoint x="-10" y="1040" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mp3C6aJtlmQ5sVye6Uwl-14" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-60" y="1160" as="sourcePoint" />
+            <mxPoint x="-120" y="1060" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mp3C6aJtlmQ5sVye6Uwl-15" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-80" y="1180" as="sourcePoint" />
+            <mxPoint x="-220" y="1050" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
