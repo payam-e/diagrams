@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3" pages="2">
   <diagram name="AzureAI" id="OpVehoEWyaYxuq4tvKD_">
-    <mxGraphModel dx="2045" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1669" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -55,17 +55,20 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="WMn-b6ElxN8xJxoVkPEa-20" value="Azure" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
-          <mxGeometry x="250" y="334.5" width="575" height="508.5" as="geometry" />
+          <mxGeometry x="200" y="334.5" width="625" height="525.5" as="geometry" />
         </mxCell>
         <mxCell id="WMn-b6ElxN8xJxoVkPEa-25" value="&lt;b&gt;REST API&lt;/b&gt;" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeWidth=2;" edge="1" parent="WMn-b6ElxN8xJxoVkPEa-20">
           <mxGeometry x="0.3652" y="-15" width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-150" y="598.5" as="sourcePoint" />
-            <mxPoint x="40" y="410.73" as="targetPoint" />
+            <mxPoint x="-100" y="598.5" as="sourcePoint" />
+            <mxPoint x="90" y="410.5" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-150" y="410.5" />
+              <mxPoint x="-100" y="410.5" />
             </Array>
             <mxPoint as="offset" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="mp3C6aJtlmQ5sVye6Uwl-4" value="" style="verticalLabelPosition=bottom;aspect=fixed;html=1;shape=mxgraph.salesforce.integration;" vertex="1" parent="WMn-b6ElxN8xJxoVkPEa-20">
+          <mxGeometry x="20" y="390.5" width="40" height="40" as="geometry" />
         </mxCell>
         <mxCell id="WMn-b6ElxN8xJxoVkPEa-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="WMn-b6ElxN8xJxoVkPEa-3">
           <mxGeometry relative="1" as="geometry">
@@ -98,7 +101,7 @@
         <mxCell id="BW_ore4JzLJ00ylGGFoG-7" value="File Store&lt;div&gt;(currently NXT uses)&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Segoe UI;fontSize=14;fontStyle=2;" vertex="1" parent="1">
           <mxGeometry x="1640" y="419.5" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="mp3C6aJtlmQ5sVye6Uwl-2" value="LWC in SF" style="verticalLabelPosition=bottom;aspect=fixed;html=1;shape=mxgraph.salesforce.automation;" vertex="1" parent="1">
+        <mxCell id="mp3C6aJtlmQ5sVye6Uwl-2" value="Einstein callouts&lt;br&gt;OR&lt;br&gt;LWC for Search" style="verticalLabelPosition=bottom;aspect=fixed;html=1;shape=mxgraph.salesforce.automation;" vertex="1" parent="1">
           <mxGeometry x="-150" y="948" width="60" height="58.199999999999996" as="geometry" />
         </mxCell>
         <mxCell id="mp3C6aJtlmQ5sVye6Uwl-3" value="MTeams" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/logos-microsoft-office-365/128/Microsoft_Office-10-128.png" vertex="1" parent="1">
@@ -107,15 +110,15 @@
         <mxCell id="mp3C6aJtlmQ5sVye6Uwl-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="mp3C6aJtlmQ5sVye6Uwl-4">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-20" y="940" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-20" y="745" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="mp3C6aJtlmQ5sVye6Uwl-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="mp3C6aJtlmQ5sVye6Uwl-4">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-120" y="940" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="mp3C6aJtlmQ5sVye6Uwl-4" value="" style="verticalLabelPosition=bottom;aspect=fixed;html=1;shape=mxgraph.salesforce.integration;" vertex="1" parent="1">
-          <mxGeometry x="80.5" y="725" width="40" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
