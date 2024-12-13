@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3" pages="2">
   <diagram name="AzureAI" id="OpVehoEWyaYxuq4tvKD_">
-    <mxGraphModel dx="2537" dy="1059" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2045" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -58,7 +58,7 @@
           <mxGeometry x="250" y="334.5" width="575" height="508.5" as="geometry" />
         </mxCell>
         <mxCell id="WMn-b6ElxN8xJxoVkPEa-25" value="&lt;b&gt;REST API&lt;/b&gt;" style="endArrow=classic;startArrow=classic;html=1;rounded=0;strokeWidth=2;" edge="1" parent="WMn-b6ElxN8xJxoVkPEa-20">
-          <mxGeometry x="0.1535" y="-8" width="50" height="50" relative="1" as="geometry">
+          <mxGeometry x="0.3652" y="-15" width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-150" y="598.5" as="sourcePoint" />
             <mxPoint x="40" y="410.73" as="targetPoint" />
             <Array as="points">
@@ -72,7 +72,7 @@
             <mxPoint x="400" y="393.0000000000001" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="WMn-b6ElxN8xJxoVkPEa-23" value="&lt;b&gt;WebUI&lt;/b&gt;&lt;br&gt;&lt;br&gt;(to perform search &amp;amp;&lt;div&gt;interact with AI)&lt;/div&gt;" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.2d.web_ui;" vertex="1" parent="1">
+        <mxCell id="WMn-b6ElxN8xJxoVkPEa-23" value="&lt;b&gt;WebUI&lt;/b&gt;&lt;br&gt;&lt;br&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;- to perform search&lt;/span&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- interact with AI&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;- embeddable&lt;/div&gt;" style="shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#4495D1;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;shape=mxgraph.veeam.2d.web_ui;" vertex="1" parent="1">
           <mxGeometry x="65" y="943" width="65" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BW_ore4JzLJ00ylGGFoG-1" value="Questions:&lt;div&gt;&lt;ul&gt;&lt;li&gt;can we include custom pre-existing instructions making Azure AI smarter and more tailored toward us?&lt;/li&gt;&lt;li&gt;ability to add or remove other sources?&lt;/li&gt;&lt;li&gt;how do i make docs available for rag? api call for updates and an initial .html dump&lt;/li&gt;&lt;li&gt;how do we not end up with 2 file store one in ihc and one in Azure&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;labelPosition=center;verticalLabelPosition=middle;" vertex="1" parent="1">
@@ -98,8 +98,24 @@
         <mxCell id="BW_ore4JzLJ00ylGGFoG-7" value="File Store&lt;div&gt;(currently NXT uses)&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontFamily=Segoe UI;fontSize=14;fontStyle=2;" vertex="1" parent="1">
           <mxGeometry x="1640" y="419.5" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="mp3C6aJtlmQ5sVye6Uwl-1" value="if there are concerns over legacy UI currently in NXT, this component can grow and leverage modern tech" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontStyle=2" vertex="1" parent="1">
-          <mxGeometry x="-180" y="973" width="190" height="30" as="geometry" />
+        <mxCell id="mp3C6aJtlmQ5sVye6Uwl-2" value="LWC in SF" style="verticalLabelPosition=bottom;aspect=fixed;html=1;shape=mxgraph.salesforce.automation;" vertex="1" parent="1">
+          <mxGeometry x="-150" y="948" width="60" height="58.199999999999996" as="geometry" />
+        </mxCell>
+        <mxCell id="mp3C6aJtlmQ5sVye6Uwl-3" value="MTeams" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/logos-microsoft-office-365/128/Microsoft_Office-10-128.png" vertex="1" parent="1">
+          <mxGeometry x="-50" y="948" width="60" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="mp3C6aJtlmQ5sVye6Uwl-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="mp3C6aJtlmQ5sVye6Uwl-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-20" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mp3C6aJtlmQ5sVye6Uwl-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="mp3C6aJtlmQ5sVye6Uwl-4">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-120" y="940" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="mp3C6aJtlmQ5sVye6Uwl-4" value="" style="verticalLabelPosition=bottom;aspect=fixed;html=1;shape=mxgraph.salesforce.integration;" vertex="1" parent="1">
+          <mxGeometry x="80.5" y="725" width="40" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
