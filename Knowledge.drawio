@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3" pages="2">
   <diagram name="AzureAI" id="OpVehoEWyaYxuq4tvKD_">
-    <mxGraphModel dx="1195" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1687" dy="1059" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -102,12 +102,59 @@
     </mxGraphModel>
   </diagram>
   <diagram id="PgWaONiKiZDPuEGXwQcN" name="LivePro">
-    <mxGraphModel dx="2284" dy="2000" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1434" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="ds56nKSa6hzHk7k7WOwx-1" value="Challenges:&lt;div&gt;&lt;ul&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Migration is very lengthy and complex&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;span style=&quot;background-color: initial;&quot;&gt;Limited to functionalities provided as it relates to AI&lt;/span&gt;&lt;/li&gt;&lt;li&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="-390" y="-10" width="330" height="100" as="geometry" />
+          <mxGeometry x="40" y="770" width="330" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="1NZ4vI1-VQLjbg0Dmuvm-1" value="&lt;b&gt;File Store (FS)&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;including:&lt;/div&gt;&lt;div&gt;&lt;i&gt;.htm,&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;.doc&lt;/span&gt;&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;.xls,&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;.pdf, etc.&lt;/span&gt;&lt;/i&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="220" y="83" width="110" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="1NZ4vI1-VQLjbg0Dmuvm-2" value="On-Prem" style="swimlane;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="30" y="44" width="330" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="1NZ4vI1-VQLjbg0Dmuvm-3" value="NXT UI&lt;br&gt;(reads from FS)" style="verticalLabelPosition=bottom;aspect=fixed;shape=mxgraph.salesforce.platform;html=1;spacing=2;labelPosition=center;align=center;verticalAlign=top;" vertex="1" parent="1NZ4vI1-VQLjbg0Dmuvm-2">
+          <mxGeometry x="40" y="100" width="39" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="1NZ4vI1-VQLjbg0Dmuvm-4" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1NZ4vI1-VQLjbg0Dmuvm-2">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="131" as="sourcePoint" />
+            <mxPoint x="90" y="131" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="1NZ4vI1-VQLjbg0Dmuvm-9" value="Large Migration Effort" style="text;html=1;align=left;verticalAlign=top;rounded=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="405" y="163" width="365" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="1NZ4vI1-VQLjbg0Dmuvm-11" value="LivePro" style="swimlane;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="250" y="334.5" width="540" height="305.5" as="geometry" />
+        </mxCell>
+        <mxCell id="1NZ4vI1-VQLjbg0Dmuvm-14" value="LivePro DBs" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1NZ4vI1-VQLjbg0Dmuvm-11">
+          <mxGeometry x="100" y="65.5" width="110" height="114.5" as="geometry" />
+        </mxCell>
+        <mxCell id="1NZ4vI1-VQLjbg0Dmuvm-15" value="LivePro Platform&lt;div&gt;- AI Tools&lt;/div&gt;&lt;div&gt;- Search Tools&lt;/div&gt;&lt;div&gt;- etc.&lt;/div&gt;" style="verticalLabelPosition=middle;aspect=fixed;html=1;shape=mxgraph.salesforce.platform2;labelPosition=right;align=left;verticalAlign=middle;" vertex="1" parent="1NZ4vI1-VQLjbg0Dmuvm-11">
+          <mxGeometry x="330" y="75.5" width="94.5" height="94.5" as="geometry" />
+        </mxCell>
+        <mxCell id="ez4M8FxxgDxqwfWRifF8-3" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;fontSize=12;strokeWidth=2;" edge="1" parent="1NZ4vI1-VQLjbg0Dmuvm-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="213" y="125.5" as="sourcePoint" />
+            <mxPoint x="323" y="125.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ez4M8FxxgDxqwfWRifF8-4" value="No control over customization of search models or custom instructions for AI" style="text;html=1;align=left;verticalAlign=top;rounded=0;whiteSpace=wrap;" vertex="1" parent="1NZ4vI1-VQLjbg0Dmuvm-11">
+          <mxGeometry x="50" y="215.5" width="365" height="47" as="geometry" />
+        </mxCell>
+        <mxCell id="1NZ4vI1-VQLjbg0Dmuvm-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="1NZ4vI1-VQLjbg0Dmuvm-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="393.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="ez4M8FxxgDxqwfWRifF8-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="ez4M8FxxgDxqwfWRifF8-1" target="1NZ4vI1-VQLjbg0Dmuvm-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="ez4M8FxxgDxqwfWRifF8-1" value="&lt;div&gt;&lt;b&gt;User&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;writes queries&lt;/div&gt;" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=none;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.user;" vertex="1" parent="1">
+          <mxGeometry x="602.25" y="690" width="50" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
