@@ -28,22 +28,16 @@
           <mxGeometry x="-390" width="320" height="80" as="geometry" />
         </mxCell>
         <mxCell id="WMn-b6ElxN8xJxoVkPEa-8" value="Azure OpenAI&lt;div&gt;(GPT LLM)&lt;/div&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/app_services/Search_Services.svg;" vertex="1" parent="1">
-          <mxGeometry x="80" y="380" width="95.69" height="69.12" as="geometry" />
+          <mxGeometry x="330.78" y="640" width="138.44" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="WMn-b6ElxN8xJxoVkPEa-9" value="Azure OpenAI provides the base LLM to:&lt;div&gt;- understand natural language&lt;/div&gt;&lt;div&gt;- be able to respond like a human&lt;/div&gt;&lt;div&gt;- use cognition to understand requests&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="30" y="530" width="240" height="70" as="geometry" />
+        <mxCell id="WMn-b6ElxN8xJxoVkPEa-9" value="Azure OpenAI provides the base LLM to:&lt;div&gt;- understand natural language&lt;/div&gt;&lt;div&gt;- be able to respond like a human&lt;/div&gt;&lt;div&gt;- use cognition to understand requests&lt;/div&gt;&lt;div&gt;- RAG will amplify it&#39;s abilities to use internal cognition&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="480" y="610" width="310" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="WMn-b6ElxN8xJxoVkPEa-10" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="200" y="420" as="sourcePoint" />
-            <mxPoint x="330" y="420" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="WMn-b6ElxN8xJxoVkPEa-11" value="RAG" style="sketch=0;html=1;aspect=fixed;strokeColor=none;shadow=0;fillColor=#3B8DF1;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;shape=mxgraph.gcp2.files" vertex="1" parent="1">
+        <mxCell id="WMn-b6ElxN8xJxoVkPEa-11" value="&lt;b&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;RAG&lt;/font&gt;&lt;/b&gt;" style="sketch=0;html=1;aspect=fixed;strokeColor=none;shadow=0;fillColor=#3B8DF1;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;shape=mxgraph.gcp2.files" vertex="1" parent="1">
           <mxGeometry x="350" y="373" width="100" height="97" as="geometry" />
         </mxCell>
         <mxCell id="WMn-b6ElxN8xJxoVkPEa-12" value="Retrieval-Augmented Generation (RAG) will:&lt;div&gt;- make use of internal context&lt;/div&gt;&lt;div&gt;- extends the LLM ability to understand SH&lt;/div&gt;&lt;div&gt;- factual grounding and relevancy&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="305" y="530" width="260" height="70" as="geometry" />
+          <mxGeometry x="480" y="386.5" width="260" height="70" as="geometry" />
         </mxCell>
         <mxCell id="WMn-b6ElxN8xJxoVkPEa-13" value="how do i make docs available for rag? api call for updates and an initial .html dump&lt;div&gt;how do we not end up with 2 file store one in ihc and one in Azure&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="870" y="449.12" width="460" height="40" as="geometry" />
@@ -53,6 +47,20 @@
         </mxCell>
         <mxCell id="WMn-b6ElxN8xJxoVkPEa-16" value="Benefits:&lt;div&gt;&lt;ul&gt;&lt;li&gt;control over what goes and does not go into the model&lt;/li&gt;&lt;li&gt;ability to add or remove other sources&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
           <mxGeometry x="-380" y="293" width="350" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WMn-b6ElxN8xJxoVkPEa-18" value="Files will be made available to RAG layer. TBD on the following:&lt;div&gt;&lt;ol&gt;&lt;li&gt;store files in FS AND RAG (redundancy issue)&lt;/li&gt;&lt;li&gt;store files in RAG, connect NXT UI to Azure to read files.&lt;/li&gt;&lt;li&gt;store files in FS, connect RAG to read files virtually&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;rounded=0;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="405" y="130" width="365" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="WMn-b6ElxN8xJxoVkPEa-19" value="" style="shape=link;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="100" relative="1" as="geometry">
+            <mxPoint x="400" y="500" as="sourcePoint" />
+            <mxPoint x="400" y="630" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="410" y="530" />
+              <mxPoint x="390" y="560" />
+              <mxPoint x="410" y="600" />
+            </Array>
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
