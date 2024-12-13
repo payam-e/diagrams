@@ -1,9 +1,59 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.3">
-  <diagram name="Page-1" id="OpVehoEWyaYxuq4tvKD_">
-    <mxGraphModel>
+  <diagram name="AzureAI" id="OpVehoEWyaYxuq4tvKD_">
+    <mxGraphModel dx="1533" dy="1529" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="WMn-b6ElxN8xJxoVkPEa-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="1" source="WMn-b6ElxN8xJxoVkPEa-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="400" y="360.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WMn-b6ElxN8xJxoVkPEa-3" value="&lt;b&gt;File Store (FS)&lt;/b&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;including:&lt;/div&gt;&lt;div&gt;&lt;i&gt;.htm,&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;.doc&lt;/span&gt;&lt;/i&gt;&lt;/div&gt;&lt;div&gt;&lt;i&gt;.xls,&amp;nbsp;&lt;span style=&quot;background-color: initial;&quot;&gt;.pdf, etc.&lt;/span&gt;&lt;/i&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="220" y="50" width="110" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="WMn-b6ElxN8xJxoVkPEa-4" value="On-Prem" style="swimlane;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+          <mxGeometry x="30" y="11" width="330" height="240" as="geometry" />
+        </mxCell>
+        <mxCell id="WMn-b6ElxN8xJxoVkPEa-1" value="NXT UI&lt;br&gt;(reads from FS)" style="verticalLabelPosition=bottom;aspect=fixed;shape=mxgraph.salesforce.platform;html=1;spacing=2;labelPosition=center;align=center;verticalAlign=top;" vertex="1" parent="WMn-b6ElxN8xJxoVkPEa-4">
+          <mxGeometry x="40" y="100" width="39" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="WMn-b6ElxN8xJxoVkPEa-17" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" edge="1" parent="WMn-b6ElxN8xJxoVkPEa-4">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="131" as="sourcePoint" />
+            <mxPoint x="90" y="131" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WMn-b6ElxN8xJxoVkPEa-5" value="Challenges:&lt;div&gt;&lt;ul&gt;&lt;li&gt;need an Azure OpenAI subscription&lt;/li&gt;&lt;li&gt;On-Prem current state makes read challenging&amp;nbsp;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-390" width="320" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="WMn-b6ElxN8xJxoVkPEa-8" value="Azure OpenAI&lt;div&gt;(GPT LLM)&lt;/div&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/app_services/Search_Services.svg;" vertex="1" parent="1">
+          <mxGeometry x="80" y="380" width="95.69" height="69.12" as="geometry" />
+        </mxCell>
+        <mxCell id="WMn-b6ElxN8xJxoVkPEa-9" value="Azure OpenAI provides the base LLM to:&lt;div&gt;- understand natural language&lt;/div&gt;&lt;div&gt;- be able to respond like a human&lt;/div&gt;&lt;div&gt;- use cognition to understand requests&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="30" y="530" width="240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="WMn-b6ElxN8xJxoVkPEa-10" value="" style="endArrow=classic;html=1;rounded=0;strokeWidth=2;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="200" y="420" as="sourcePoint" />
+            <mxPoint x="330" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="WMn-b6ElxN8xJxoVkPEa-11" value="RAG" style="sketch=0;html=1;aspect=fixed;strokeColor=none;shadow=0;fillColor=#3B8DF1;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;shape=mxgraph.gcp2.files" vertex="1" parent="1">
+          <mxGeometry x="350" y="373" width="100" height="97" as="geometry" />
+        </mxCell>
+        <mxCell id="WMn-b6ElxN8xJxoVkPEa-12" value="Retrieval-Augmented Generation (RAG) will:&lt;div&gt;- make use of internal context&lt;/div&gt;&lt;div&gt;- extends the LLM ability to understand SH&lt;/div&gt;&lt;div&gt;- factual grounding and relevancy&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="305" y="530" width="260" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="WMn-b6ElxN8xJxoVkPEa-13" value="how do i make docs available for rag? api call for updates and an initial .html dump&lt;div&gt;how do we not end up with 2 file store one in ihc and one in Azure&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="870" y="449.12" width="460" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="WMn-b6ElxN8xJxoVkPEa-15" value="&lt;b&gt;Building a custom AI Model dedicated to our internal knowledge&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="220.00000000000006" y="-60" width="390" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="WMn-b6ElxN8xJxoVkPEa-16" value="Benefits:&lt;div&gt;&lt;ul&gt;&lt;li&gt;control over what goes and does not go into the model&lt;/li&gt;&lt;li&gt;ability to add or remove other sources&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-380" y="293" width="350" height="80" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
