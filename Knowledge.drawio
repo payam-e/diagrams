@@ -20,7 +20,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="WMn-b6ElxN8xJxoVkPEa-5" value="Challenges:&lt;div&gt;&lt;ul&gt;&lt;li&gt;need an Azure OpenAI subscription&lt;/li&gt;&lt;li&gt;On-Prem current state makes read challenging&amp;nbsp;&lt;/li&gt;&lt;li&gt;&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="890" width="320" height="100" as="geometry" />
+          <mxGeometry x="-110" y="1160" width="320" height="100" as="geometry" />
         </mxCell>
         <mxCell id="WMn-b6ElxN8xJxoVkPEa-8" value="Azure OpenAI&lt;div&gt;GPT LLM&lt;/div&gt;" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/app_services/Search_Services.svg;" vertex="1" parent="1">
           <mxGeometry x="300" y="640" width="169.22" height="122.23" as="geometry" />
@@ -38,7 +38,7 @@
           <mxGeometry x="260.00000000000006" y="-70" width="390" height="40" as="geometry" />
         </mxCell>
         <mxCell id="WMn-b6ElxN8xJxoVkPEa-16" value="Benefits:&lt;div&gt;&lt;ul&gt;&lt;li&gt;control over what goes and does not go into the model&lt;/li&gt;&lt;li&gt;ability to add or remove other sources&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="890" y="221.5" width="350" height="80" as="geometry" />
+          <mxGeometry x="280" y="1160" width="350" height="80" as="geometry" />
         </mxCell>
         <mxCell id="WMn-b6ElxN8xJxoVkPEa-18" value="Files will be made available to RAG layer. TBD on the following:&lt;div&gt;&lt;ol&gt;&lt;li&gt;store files in FS AND RAG (redundancy issue)&lt;/li&gt;&lt;li&gt;store files in RAG, connect NXT UI to Azure to read files.&lt;/li&gt;&lt;li&gt;store files in FS, connect RAG to read files virtually&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;rounded=0;whiteSpace=wrap;" vertex="1" parent="1">
           <mxGeometry x="405" y="130" width="365" height="200" as="geometry" />
@@ -76,7 +76,7 @@
           <mxGeometry x="65" y="910" width="65" height="60" as="geometry" />
         </mxCell>
         <mxCell id="BW_ore4JzLJ00ylGGFoG-1" value="Questions:&lt;div&gt;&lt;ul&gt;&lt;li&gt;can we include custom pre-existing instructions making Azure AI smarter and more tailored toward us?&lt;/li&gt;&lt;li&gt;ability to add or remove other sources?&lt;/li&gt;&lt;li&gt;how do i make docs available for rag? api call for updates and an initial .html dump&lt;/li&gt;&lt;li&gt;how do we not end up with 2 file store one in ihc and one in Azure&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="890" y="430" width="610" height="110" as="geometry" />
+          <mxGeometry x="700" y="1160" width="610" height="110" as="geometry" />
         </mxCell>
         <mxCell id="BW_ore4JzLJ00ylGGFoG-2" value="&lt;div&gt;&lt;b&gt;User&lt;/b&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;writes queries&lt;/div&gt;" style="html=1;verticalLabelPosition=bottom;align=center;labelBackgroundColor=none;verticalAlign=top;strokeWidth=2;strokeColor=#0080F0;shadow=0;dashed=0;shape=mxgraph.ios7.icons.user;" vertex="1" parent="1">
           <mxGeometry x="-120" y="920" width="50" height="50" as="geometry" />
