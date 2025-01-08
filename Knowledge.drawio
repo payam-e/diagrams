@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="26.0.4" pages="2">
   <diagram name="AzureAI" id="OpVehoEWyaYxuq4tvKD_">
-    <mxGraphModel dx="2537" dy="1059" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="2045" dy="750" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -41,7 +41,7 @@
           <mxGeometry x="40" y="1493" width="450" height="100" as="geometry" />
         </mxCell>
         <mxCell id="WMn-b6ElxN8xJxoVkPEa-18" value="Files will be made available to RAG layer. TBD on the following:&lt;div&gt;&lt;ol&gt;&lt;li&gt;store files in FS AND RAG (redundancy issue)&lt;/li&gt;&lt;li&gt;store files in Azure, connect NXT UI to Azure to read files.&lt;/li&gt;&lt;li&gt;store files in FS, connect RAG to read files virtually or cache&amp;nbsp;&lt;/li&gt;&lt;/ol&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=top;rounded=0;whiteSpace=wrap;" parent="1" vertex="1">
-          <mxGeometry x="405" y="163" width="365" height="200" as="geometry" />
+          <mxGeometry x="405" y="163" width="365" height="107" as="geometry" />
         </mxCell>
         <mxCell id="WMn-b6ElxN8xJxoVkPEa-19" value="" style="shape=link;html=1;rounded=0;" parent="1" edge="1">
           <mxGeometry width="100" relative="1" as="geometry">
@@ -146,6 +146,9 @@
             <mxPoint x="-80" y="1180" as="sourcePoint" />
             <mxPoint x="-220" y="1050" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="IpaT203grm2oA02g4ut1-1" value="&lt;b&gt;Audiences&lt;/b&gt;:&lt;div&gt;&lt;br&gt;&lt;div&gt;Content Author&lt;div&gt;Member Services&lt;/div&gt;&lt;div&gt;Pharmacy Services&lt;/div&gt;&lt;div&gt;Compliance&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;External Members&lt;/div&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="10" y="329.5" width="130" height="130" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
