@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36" version="25.0.1" pages="9">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36" version="28.0.7" pages="10">
   <diagram name="Page-1" id="0A9gm2JEwT_YIH9Nl0RX">
     <mxGraphModel grid="1" page="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
@@ -881,6 +881,95 @@
         </mxCell>
         <mxCell id="uzFnA4ENE4B6lOE4od6I-0" value="&lt;b&gt;&lt;font style=&quot;font-size: 28px;&quot;&gt;Generate Large Employer Group Contract Package&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=6" vertex="1" parent="p5OsDb4ezV1dZ22VuZKv-1">
           <mxGeometry x="203" y="-510" width="700" height="50" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="MuleSoft" id="NfNHpnq7otLYMkLgyGxY">
+    <mxGraphModel dx="1569" dy="1579" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="EqRCgW2YIVeNLfX-q7Go-0" />
+        <mxCell id="EqRCgW2YIVeNLfX-q7Go-1" parent="EqRCgW2YIVeNLfX-q7Go-0" />
+        <mxCell id="EqRCgW2YIVeNLfX-q7Go-2" value="MuleSoft" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;align=left;fontStyle=1;fontSize=13;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="EqRCgW2YIVeNLfX-q7Go-1">
+          <mxGeometry x="244.9" y="20" width="565.1" height="672" as="geometry" />
+        </mxCell>
+        <mxCell id="EqRCgW2YIVeNLfX-q7Go-3" value="&lt;b&gt;Salesforce&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=top;align=left;fontSize=13;movable=0;resizable=0;rotatable=0;deletable=0;editable=0;locked=1;connectable=0;" vertex="1" parent="EqRCgW2YIVeNLfX-q7Go-1">
+          <mxGeometry x="-100" y="20" width="300" height="672" as="geometry" />
+        </mxCell>
+        <mxCell id="EqRCgW2YIVeNLfX-q7Go-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;" edge="1" parent="EqRCgW2YIVeNLfX-q7Go-1" source="EqRCgW2YIVeNLfX-q7Go-6" target="EqRCgW2YIVeNLfX-q7Go-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="EqRCgW2YIVeNLfX-q7Go-6" value="&lt;span&gt;BSS Completes with following conditions:&lt;/span&gt;&lt;div&gt;&lt;span&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;- Record Type: LE New Group, LE Renewal&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;- BSS: Benefit Setup Complete&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;- Funding Type &amp;lt;&amp;gt; Self Funded, Level Funded&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;verticalAlign=top;fontSize=13;" vertex="1" parent="EqRCgW2YIVeNLfX-q7Go-1">
+          <mxGeometry x="-81" y="57" width="271" height="123" as="geometry" />
+        </mxCell>
+        <mxCell id="EqRCgW2YIVeNLfX-q7Go-7" value="&lt;b&gt;Unsigned Complete Document Saved&lt;/b&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;i&gt;&lt;br&gt;&lt;/i&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;i&gt;&lt;br&gt;&lt;/i&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;i&gt;- need to retain until signature is collected&lt;/i&gt;&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;&lt;i&gt;- will send LOU if signature is never received&lt;/i&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;verticalAlign=top;fontSize=13;" vertex="1" parent="EqRCgW2YIVeNLfX-q7Go-1">
+          <mxGeometry x="-80" y="286" width="260" height="124" as="geometry" />
+        </mxCell>
+        <mxCell id="EqRCgW2YIVeNLfX-q7Go-16" value="&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;" vertex="1" parent="EqRCgW2YIVeNLfX-q7Go-1">
+          <mxGeometry x="713" y="485" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="EqRCgW2YIVeNLfX-q7Go-20" value="" style="verticalLabelPosition=bottom;aspect=fixed;html=1;shape=mxgraph.salesforce.integration;" vertex="1" parent="EqRCgW2YIVeNLfX-q7Go-1">
+          <mxGeometry x="493.94" y="-150" width="85.92" height="85.92" as="geometry" />
+        </mxCell>
+        <mxCell id="EqRCgW2YIVeNLfX-q7Go-44" value="&lt;b&gt;&lt;font style=&quot;font-size: 28px;&quot;&gt;Generate Large Employer Group Contract Package&lt;/font&gt;&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontStyle=6" vertex="1" parent="EqRCgW2YIVeNLfX-q7Go-1">
+          <mxGeometry x="203" y="-510" width="700" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="EqRCgW2YIVeNLfX-q7Go-27" value="" style="dashed=0;outlineConnect=0;html=1;align=center;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;shape=mxgraph.weblogos.json;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="EqRCgW2YIVeNLfX-q7Go-1">
+          <mxGeometry x="300" y="96.28" width="40" height="44.45" as="geometry" />
+        </mxCell>
+        <mxCell id="EqRCgW2YIVeNLfX-q7Go-28" value="experience API" style="verticalLabelPosition=bottom;aspect=fixed;html=1;shape=mxgraph.salesforce.integration;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="EqRCgW2YIVeNLfX-q7Go-1">
+          <mxGeometry x="380" y="96.28" width="45.92" height="45.92" as="geometry" />
+        </mxCell>
+        <mxCell id="EqRCgW2YIVeNLfX-q7Go-29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeWidth=2;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" edge="1" parent="EqRCgW2YIVeNLfX-q7Go-1" source="EqRCgW2YIVeNLfX-q7Go-27" target="EqRCgW2YIVeNLfX-q7Go-28">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="580" y="112.46000000000001" as="sourcePoint" />
+            <mxPoint x="780" y="112.46000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vmIatpHg8g7ecXIwdcIT-1" value="Process API" style="verticalLabelPosition=bottom;aspect=fixed;html=1;shape=mxgraph.salesforce.integration;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;opacity=20;" vertex="1" parent="EqRCgW2YIVeNLfX-q7Go-1">
+          <mxGeometry x="484.12" y="250" width="45.92" height="45.92" as="geometry" />
+        </mxCell>
+        <mxCell id="vmIatpHg8g7ecXIwdcIT-2" value="System API&lt;div&gt;(Proxy for Document Service APIs)&lt;/div&gt;" style="verticalLabelPosition=bottom;aspect=fixed;html=1;shape=mxgraph.salesforce.integration;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="EqRCgW2YIVeNLfX-q7Go-1">
+          <mxGeometry x="600" y="380" width="45.92" height="45.92" as="geometry" />
+        </mxCell>
+        <mxCell id="vmIatpHg8g7ecXIwdcIT-3" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0.651;entryY=0.022;entryDx=0;entryDy=0;entryPerimeter=0;opacity=20;" edge="1" parent="EqRCgW2YIVeNLfX-q7Go-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="450.15000000000003" y="190" as="sourcePoint" />
+            <mxPoint x="484.1239199999999" y="231.01024000000007" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vmIatpHg8g7ecXIwdcIT-4" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;entryX=0.651;entryY=0.022;entryDx=0;entryDy=0;entryPerimeter=0;opacity=20;" edge="1" parent="EqRCgW2YIVeNLfX-q7Go-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="335.49" as="sourcePoint" />
+            <mxPoint x="593.9739199999999" y="376.5002400000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vmIatpHg8g7ecXIwdcIT-5" value="XAPI" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="EqRCgW2YIVeNLfX-q7Go-1">
+          <mxGeometry x="440" y="110.72999999999999" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vmIatpHg8g7ecXIwdcIT-6" value="PAPI" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;opacity=20;" vertex="1" parent="EqRCgW2YIVeNLfX-q7Go-1">
+          <mxGeometry x="540" y="250" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vmIatpHg8g7ecXIwdcIT-7" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="EqRCgW2YIVeNLfX-q7Go-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="120" as="sourcePoint" />
+            <mxPoint x="640" y="360" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="650" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vmIatpHg8g7ecXIwdcIT-8" value="business logic&lt;div&gt;data transformation&lt;/div&gt;&lt;div&gt;...&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;opacity=20;fontSize=10;" vertex="1" parent="EqRCgW2YIVeNLfX-q7Go-1">
+          <mxGeometry x="370" y="250" width="112.96" height="64" as="geometry" />
+        </mxCell>
+        <mxCell id="vmIatpHg8g7ecXIwdcIT-9" value="Correspondence Document Service APIs" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;verticalAlign=middle;align=center;fontStyle=1;fontSize=13;movable=1;resizable=1;rotatable=1;deletable=1;editable=1;locked=0;connectable=1;" vertex="1" parent="EqRCgW2YIVeNLfX-q7Go-1">
+          <mxGeometry x="880" y="380" width="280" height="62" as="geometry" />
+        </mxCell>
+        <mxCell id="vmIatpHg8g7ecXIwdcIT-10" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="EqRCgW2YIVeNLfX-q7Go-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="680" y="410" as="sourcePoint" />
+            <mxPoint x="860" y="410" as="targetPoint" />
+          </mxGeometry>
         </mxCell>
       </root>
     </mxGraphModel>
